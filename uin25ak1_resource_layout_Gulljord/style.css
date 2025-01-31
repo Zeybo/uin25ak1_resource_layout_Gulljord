@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --DarkBlue: #2A324B;
+    --LightBlue: #58699D;
+    --Grey: #E1E5EE;
+    --White: #fff; 
+}
+
+html, body {
+    margin: 5px;
+    padding: 10px;
+}
+
+body {
+    background-color: var(--Grey);
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    margin-top: 20px; 
+    padding: 30px; 
+    background-color: var(--White); 
+    width: 80%;
+    margin: auto; 
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+    width: 80%;
+    margin: auto; /* Sentrerer navigasjonen */
+    padding: 0;
+}
+
+#nav button {
+    flex: 1; /* Fordeler knappene likt over bredden */
+    background-color: var(--DarkBlue);
+    color: var(--White);
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border: none; 
+    cursor: pointer; 
+    text-align: center;
+}
+
+#nav button:active {
+    background-color: var(--LightBlue);
+}
+
+.title {
+    background-color: var(--DarkBlue);
+    color: var(--White);
+    padding: 10px 20px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+header, article, section, footer, main {
+    box-sizing: border-box;
+    list-style-type: none;
+}
