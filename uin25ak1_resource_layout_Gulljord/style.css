@@ -34,12 +34,12 @@ section {
     align-items: flex-end;
     list-style-type: none;
     width: 80%;
-    margin: auto; /* Sentrerer navigasjonen */
+    margin: auto; 
     padding: 0;
 }
 
 #nav button {
-    flex: 1; /* Fordeler knappene likt over bredden */
+    flex: 1; 
     background-color: var(--DarkBlue);
     color: var(--White);
     padding: 10px 20px; 
